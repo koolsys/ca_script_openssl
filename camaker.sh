@@ -580,13 +580,13 @@ usage()
     exit 1
 }
 
-if [ $# -gt 1]
+if [ $# -gt 1 ]
 then
 	FILENAME=$1
 	DAYS=$2
 fi
 
-if [ $# -eq 1]
+if [ $# -eq 1 ]
 then
 	DAYS=$1
 fi
