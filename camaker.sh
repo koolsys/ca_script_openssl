@@ -588,7 +588,7 @@ fi
 
 if [ $# -eq 1]
 then
-	DAYS=$2
+	DAYS=$1
 fi
 
 cd "$CAPREFIX"
